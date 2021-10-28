@@ -16,7 +16,7 @@ body {
 
 
 .navbar {
-    height: 50px;
+    height: 60px;
 }
 
 /* -------------- Menu Links ------------*/
@@ -26,6 +26,7 @@ nav a.nav-link {
     letter-spacing: 0.0375rem;
     cursor: pointer;
     font-weight: bold;
+    padding-bottom: 1.5rem;
 }
 
 
@@ -44,7 +45,8 @@ nav ul li {
     margin-left: 0.75rem;
     color: var(--primary-purple) !important;
     /* border-top: 0.1875rem solid var(--primary-dark) in !important; */
-    padding-top: 0.19rem;
+    margin-top: 0.2rem;
+    padding-bottom: 1rem;
 }
 
 .navbar-brand {
@@ -59,7 +61,8 @@ nav ul li {
 
 
 .navbar-nav > li > a:hover {
-    border-top: 0.1875rem solid var(--primary-purple) !important;
+    border-bottom: 0.1rem solid var(--primary-purple) !important;
+    /* font-size: 1.3rem; */
 }
 
 
