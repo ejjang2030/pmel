@@ -2,6 +2,7 @@
 
 :root {
     --primary-white: #fff;
+    --primary-black: #000;
     --primary-purple: #8a868f;
     --primary-dark: rgba(255, 255, 255, 0);
     --primary-darkseagreen: rgb(143, 188, 143);
@@ -43,7 +44,7 @@ nav ul li {
 .navbar-nav > li > a {
     margin-right: 0.75rem;
     margin-left: 0.75rem;
-    color: var(--primary-purple) !important;
+    color: var(--primary-black) !important;
     /* border-top: 0.1875rem solid var(--primary-dark) in !important; */
     margin-top: 0.2rem;
     padding-bottom: 1rem;
@@ -56,12 +57,12 @@ nav ul li {
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
-    border-top: 0.1875rem solid var(--primary-purple) !important;
+    border-top: 0.1875rem solid var(--primary-black) !important;
 }
 
 
 .navbar-nav > li > a:hover {
-    border-bottom: 0.1rem solid var(--primary-purple) !important;
+    border-bottom: 0.1rem solid var(--primary-black) !important;
     /* font-size: 1.3rem; */
 }
 
